@@ -1,3 +1,5 @@
+from tasks import add_tasks
+
 name = input("Enter your name: ")
 print(f"Welcome", name)
 
@@ -11,4 +13,4 @@ while True:
 
 print("Enter a task: ")
 for task in tasks:
-    print("- ", task)
+    print("-", task)
