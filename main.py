@@ -1,6 +1,14 @@
 name = input("Enter your name: ")
 print(f"Welcome", name)
 
-task = input("Enter a task: ")
-print(name,"'s task :")
-print(task)
+tasks = []
+while True:
+    task = input("please enter ypur task(if you don't want to enter any task(done)) :")
+
+    if task.lower() == "done":
+        break
+    tasks.append(task)
+
+print("Enter a task: ")
+for task in tasks:
+    print("- ", task)
