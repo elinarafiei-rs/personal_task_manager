@@ -5,12 +5,15 @@ print(f"Welcome", name)
 
 tasks = []
 while True:
-    task = input("please enter ypur task(if you don't want to enter any task(done)) :")
-
+    task = add_tasks()
+    tasks.append(task)
     if task.lower() == "done":
         break
-    tasks.append(task)
+
 
 print("Enter a task: ")
 for task in tasks:
     print("-", task)
+
+with open("tasks.txt", "w") as file:
+    file.write("\n".join(tasks))

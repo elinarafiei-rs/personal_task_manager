@@ -1,2 +1,3 @@
-def add_tasks(tasks, task):
-    tasks.append(task)
+def add_tasks():
+    task = input("please enter ypur task(if you don't want to enter any task(done)) :")
+    return task
