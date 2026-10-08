@@ -1,4 +1,9 @@
 from tasks import add_tasks
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+admin_password = os.getenv("TASK_MANAGER_ADMIN_PASSWORD")
 
 name = input("Enter your name: ")
 print(f"Welcome", name)
