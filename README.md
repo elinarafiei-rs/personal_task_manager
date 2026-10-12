@@ -16,10 +16,11 @@ Personal Task Manager is a Python project that helps users manage their daily ta
 
 ## Features
 
-- Add new tasks
-- View saved tasks
-- Save tasks in a file
-- Admin mode
+- Add new tasks.
+- View saved tasks.
+- Save tasks in a file.
+- Admin mode.
+- set task priority to high, medium, or low.
 
 ## Project Structure
 ```
@@ -96,7 +97,7 @@ Enter a task:
 - [x] save tasks to file
 - [x] set up git and github
 - [x] create project documentation
-- [ ] Add task priority
+- [x] Add task priority
 - [ ] validation task inputs
 - [ ] improve error handling
   
